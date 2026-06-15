@@ -37,7 +37,7 @@ public class Day8 {
 */
 public class Day8_P2 {
 
-    // Login
+
     sealed interface LoginResult
             permits LoginSuccess, LoginFailure, LoginLoading {
     }
