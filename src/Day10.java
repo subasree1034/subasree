@@ -45,7 +45,7 @@ public class Day10Linked {
             }
         }
     }
-
+/*
     public static void main(String[] args) {
 
         LinkedList<Student> students = new LinkedList<>();
@@ -74,5 +74,29 @@ public class Day10Linked {
         }
     }
 }
+*/
+/*
+public class Day10{
+  static void main() {
+     String name = "employee";
+     try{
+         System.out.println(name.char(8));
+         System.out.println(45/8);
+     }catch(ArithmeticException e) {
+         System.out.println("Arithmetic exception");
+     }catch(ArrayIndexOutOfBoundsException e) {
+         System.out.println("Arithmetic Index Out Bounds Exception");
+     }catch (Exception e) {
+         System.out.println("Exception");
+     }finally {
+         Ssytem.out.println("This will always execute");
+         name="";
+     }
+      System.out.println("Still running");
+      System.out.println("Name :"+name);
+  }
+}
+*/
+
 
 
